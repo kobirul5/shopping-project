@@ -1,9 +1,9 @@
 import About from "../About/About";
 import Cart from "../Cart/Cart";
 
-const CartContainer = ({ handleIsActiveState, isActive }) => {
+const CartContainer = ({ handleIsActiveState, isActive, selectedProduct }) => {
     return (
-        <div>
+        <div className="w-1/3">
             <h1 className="text-3xl font-bold">Cart Container</h1>
             <div className="flex justify-around mt-5">
                 <div onClick={() => handleIsActiveState("cart")}
@@ -18,7 +18,7 @@ const CartContainer = ({ handleIsActiveState, isActive }) => {
 
             <section>
                 {
-                    isActive.cart?<Cart></Cart>:<About></About>
+                    isActive.cart?<Cart selectedProduct={selectedProduct}></Cart>:<About></About>
                 }
                 
                 

@@ -1,8 +1,23 @@
+import { useEffect, useState } from "react";
+import Products from "../Products/Products";
 
-const AllComponents = () => {
+const AllComponents = ({handleSelctedProduct}) => {
+    const [products, setProducts] = useState([])
+    useEffect(()=>{
+        fetch('./products.json')
+        .then(res=>res.json())
+        .then(data=>setProducts(data))
+    },[])
+
     return (
-        <div>
-            <h1 className="text-3xl font-bold">All Components</h1>
+        <div className="w-2/3 grid md:grid-cols-2 gap-5">
+           {
+            products.map(product=> <Products 
+                key={product.id} 
+                product={product}
+                handleSelctedProduct={handleSelctedProduct}
+            ></Products> )
+           }
         </div>
     );
 };

@@ -1,8 +1,15 @@
 
-const Cart = () => {
+const Cart = ({ selectedProduct }) => {
     return (
         <div>
-            cart
+            {
+                selectedProduct.map(p => (
+                    <div>
+                        <img  src={p.image} alt="" />
+                    </div>
+
+                ))
+            }
         </div>
     );
 };

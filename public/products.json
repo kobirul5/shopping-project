@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "name": "Floral Summer Dress",
+      "price": 39.99,
+      "image": "https://i.ibb.co/mDCymVc/pexels-rajeshverma-13162248.jpg",
+      "category": "Dresses",
+      "description": "A light and flowy floral dress perfect for summer outings.",
+      "stock": 50,
+      "rating": 4.5,
+      "size": ["S", "M", "L", "XL"],
+      "color": ["Red", "Yellow", "Blue"],
+      "brand": "Fashionista"
+    },
+    {
+      "id": 2,
+      "name": "Casual Shirt Dress",
+      "price": 45.99,
+      "image": "https://i.ibb.co/gyw9DCW/pexels-rajeshverma-13031589.jpg",
+      "category": "Dresses",
+      "description": "A trendy casual shirt dress that combines comfort with style.",
+      "stock": 30,
+      "rating": 4.7,
+      "size": ["S", "M", "L"],
+      "color": ["White", "Beige", "Navy Blue"],
+      "brand": "Urban Style"
+    },
+    {
+      "id": 3,
+      "name": "Elegant Evening Gown",
+      "price": 120.99,
+      "image": "https://i.ibb.co/zhpjj0V/pexels-marcus-silva-86421404-15256423.jpg",
+      "category": "Dresses",
+      "description": "A stunning evening gown, ideal for formal occasions and parties.",
+      "stock": 15,
+      "rating": 4.9,
+      "size": ["M", "L", "XL"],
+      "color": ["Black", "Silver", "Maroon"],
+      "brand": "Elegance Couture"
+    },
+    {
+      "id": 4,
+      "name": "Denim Mini Dress",
+      "price": 55.49,
+      "image": "https://i.ibb.co/7XRqTQg/pexels-rajeshverma-13031581.jpg",
+      "category": "Dresses",
+      "description": "A chic denim mini dress perfect for day-to-night transitions.",
+      "stock": 40,
+      "rating": 4.3,
+      "size": ["XS", "S", "M", "L"],
+      "color": ["Denim Blue"],
+      "brand": "Street Style"
+    },
+    {
+      "id": 5,
+      "name": "Formal Office Dress",
+      "price": 65.99,
+      "image": "https://i.ibb.co/GWnVRqG/pexels-rajeshverma-13031582.jpg",
+      "category": "Dresses",
+      "description": "A sleek formal dress suitable for professional and office wear.",
+      "stock": 25,
+      "rating": 4.8,
+      "size": ["S", "M", "L"],
+      "color": ["Black", "Grey", "Navy"],
+      "brand": "Professional Attire"
+    },
+    {
+      "id": 6,
+      "name": "Boho Maxi Dress",
+      "price": 75.00,
+      "image": "https://i.ibb.co/mDCymVc/pexels-rajeshverma-13162248.jpg",
+      "category": "Dresses",
+      "description": "A comfortable and stylish bohemian maxi dress for casual events.",
+      "stock": 35,
+      "rating": 4.6,
+      "size": ["S", "M", "L", "XL"],
+      "color": ["Orange", "Teal", "Brown"],
+      "brand": "BohoVibes"
+    },
+    {
+      "id": 7,
+      "name": "Cocktail Dress",
+      "price": 95.99,
+      "image": "https://i.ibb.co/gyw9DCW/pexels-rajeshverma-13031589.jpg",
+      "category": "Dresses",
+      "description": "An elegant cocktail dress perfect for parties and special events.",
+      "stock": 20,
+      "rating": 4.7,
+      "size": ["M", "L", "XL"],
+      "color": ["Black", "Ruby Red", "Emerald Green"],
+      "brand": "Evening Elegance"
+    },
+    {
+      "id": 8,
+      "name": "Vintage Polka Dot Dress",
+      "price": 49.99,
+      "image": "https://i.ibb.co/zhpjj0V/pexels-marcus-silva-86421404-15256423.jpg",
+      "category": "Dresses",
+      "description": "A retro-inspired polka dot dress with a flattering fit.",
+      "stock": 45,
+      "rating": 4.4,
+      "size": ["S", "M", "L"],
+      "color": ["Red", "Navy", "Black"],
+      "brand": "Retro Chic"
+    }
+  ]
+  
